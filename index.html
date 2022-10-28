@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instagram</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid justify-content-between">
+        <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i><b><span class="px-1">Instagram</span></b></a>
+    <div">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <button class="nav-link text-white btn btn-success mx-1" data-bs-toggle="modal" data-bs-target="#post-prompt">Create a new post</button>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle btn btn-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-gear-fill text-white"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                <li><a class="dropdown-item" href="#">Privacy & Data</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-danger" href="#">Log Out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+    <div class="containter-fluid">
+      <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="feed-tab" data-bs-toggle="tab" data-bs-target="#feed" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-square-fill"></i></button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
+          
+          <div class="row containter-fluid d-flex justify-content-between mb-3">
+            <div class="col-4"><img src="https://i.picsum.photos/id/678/500/500.jpg?hmac=wcUqBwZqC_PayiYQ9uOV6eyIgORRQpu9o7KZoDNkK7I" alt="No Image Found"></div>
+            <div class="col-4"><img src="https://i.picsum.photos/id/930/500/500.jpg?hmac=Vyp6Fo7-46gDBu5afhzHcWnF8LxuWk8nGqddXNaXJXU" alt="No Image Found"></div>
+            <div class="col-4"><img src="https://i.picsum.photos/id/481/500/500.jpg?hmac=lTwSqNH5Coz3Vmbh2YbJOMtDDBTVWHg7MtjQgiFQmQk" alt="No Image Found"></div>
+          </div>
+          <div class="row containter-fluid d-flex justify-content-between mb-3">
+            <div class="col-4"><img src="https://i.picsum.photos/id/412/500/500.jpg?hmac=qKfvn_UA0PP65u0xBAnAEXUIUSH9EG-SgCbyfOGQjaE" alt="No Image Found"></div>
+            <div class="col-4"><img src="https://i.picsum.photos/id/449/500/500.jpg?hmac=t4s6RPGhZl7vXzc5DtJIJZwLijUR_5pIpfxdXBU5fLE" alt="No Image Found"></div>
+            <div class="col-4"><img src="https://i.picsum.photos/id/818/500/500.jpg?hmac=gm6k4It137OUao6Tabm1Dwkiu7WE-9qWiPMW42phI_k" alt="No Image Found"></div>
+          </div>
+          <div class="row containter-fluid d-flex justify-content-between mb-3">
+            <div class="col-4"><img src="https://i.picsum.photos/id/868/500/500.jpg?hmac=QYwn79lO3j-3Roa_WCXZrawxIrEH-AvpuBKKDJnEtbQ" alt="No Image Found"></div>
+            <div class="col-4"><img src="https://i.picsum.photos/id/942/500/500.jpg?hmac=Yje07p8pVraT90pyjCX_dqPjgT-KnQ1jKJIn1uRVk-k" alt="No Image Found"></div>
+            <div class="col-4"><img src="https://i.picsum.photos/id/568/500/500.jpg?hmac=iLIcYburGGq0F1Anieyhb5Xu4QYLAMDaCLYVTg5WwpY" alt="No Image Found"></div>
+          </div>
+        
+        </div>
+        <div class="tab-pane fade" id="feed" role="tabpanel" aria-labelledby="feed-tab">
+          <div class="container-fluid">
+            <div class="row justify-content-md-center">
+              <div class="col-4">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between">
+                    <h4>She said she knew a spot!</h4>
+                    <p>1/9</p>
+                  </div>
+                  <div class="card-body">
+                    <img class="img-fluid rounded" src="https://i.picsum.photos/id/678/500/500.jpg?hmac=wcUqBwZqC_PayiYQ9uOV6eyIgORRQpu9o7KZoDNkK7I" alt="No Image Found">
+                    <h5 class="card-title mt-1">204 Likes</h5>
+                    <p class="card-text">Me and my friend on a hike in Yosemite!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="col-4">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between">
+                    <h4>Cold Foggy Mountains</h4>
+                    <p>2/9</p>
+                  </div>
+                  <div class="card-body">
+                    <img class="img-fluid rounded" src="https://i.picsum.photos/id/930/500/500.jpg?hmac=Vyp6Fo7-46gDBu5afhzHcWnF8LxuWk8nGqddXNaXJXU" alt="No Image Found">
+                    <h5 class="card-title mt-1">2809 Likes</h5>
+                    <p class="card-text">Took this on the flight back home!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="col-4">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between">
+                    <h4>Out at the lake</h4>
+                    <p>3/9</p>
+                  </div>
+                  <div class="card-body">
+                    <img class="img-fluid rounded" src="https://i.picsum.photos/id/481/500/500.jpg?hmac=lTwSqNH5Coz3Vmbh2YbJOMtDDBTVWHg7MtjQgiFQmQk" alt="No Image Found">
+                    <h5 class="card-title mt-1">582 Likes</h5>
+                    <p class="card-text">Took this before heading home for the day with John.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="col-4">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between">
+                    <h4>Christmas Morning</h4>
+                    <p>4/9</p>
+                  </div>
+                  <div class="card-body">
+                    <img class="img-fluid rounded" src="https://i.picsum.photos/id/412/500/500.jpg?hmac=qKfvn_UA0PP65u0xBAnAEXUIUSH9EG-SgCbyfOGQjaE" alt="No Image Found">
+                    <h5 class="card-title mt-1">8456 Likes</h5>
+                    <p class="card-text">I looked out the window and it was snowing!!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="col-4">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between">
+                    <h4>Beach Day!</h4>
+                    <p>5/9</p>
+                  </div>
+                  <div class="card-body">
+                    <img class="img-fluid rounded" src="https://i.picsum.photos/id/449/500/500.jpg?hmac=t4s6RPGhZl7vXzc5DtJIJZwLijUR_5pIpfxdXBU5fLE" alt="No Image Found">
+                    <h5 class="card-title mt-1">523 Likes</h5>
+                    <p class="card-text">Me and Jenny getting our tan on :p</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="col-4">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between">
+                    <h4>Lady Liberty</h4>
+                    <p>6/9</p>
+                  </div>
+                  <div class="card-body">
+                    <img class="img-fluid rounded" src="https://i.picsum.photos/id/818/500/500.jpg?hmac=gm6k4It137OUao6Tabm1Dwkiu7WE-9qWiPMW42phI_k" alt="No Image Found">
+                    <h5 class="card-title mt-1">741 Likes</h5>
+                    <p class="card-text">Went to Ellis Island with the family today</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="col-4">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between">
+                    <h4>Rooftop Lunch!</h4>
+                    <p>7/9</p>
+                  </div>
+                  <div class="card-body">
+                    <img class="img-fluid rounded" src="https://i.picsum.photos/id/868/500/500.jpg?hmac=QYwn79lO3j-3Roa_WCXZrawxIrEH-AvpuBKKDJnEtbQ" alt="No Image Found">
+                    <h5 class="card-title mt-1">831 Likes</h5>
+                    <p class="card-text">Lunch with the bois at Jerry's</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="col-4">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between">
+                    <h4>Art Museum</h4>
+                    <p>8/9</p>
+                  </div>
+                  <div class="card-body">
+                    <img class="img-fluid rounded" src="https://i.picsum.photos/id/942/500/500.jpg?hmac=Yje07p8pVraT90pyjCX_dqPjgT-KnQ1jKJIn1uRVk-k" alt="No Image Found">
+                    <h5 class="card-title mt-1">426 Likes</h5>
+                    <p class="card-text">Took a trip to the museum today!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="col-4">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between">
+                    <h4>Camping Trip</h4>
+                    <p>9/9</p>
+                  </div>
+                  <div class="card-body">
+                    <img class="img-fluid rounded" src="https://i.picsum.photos/id/568/500/500.jpg?hmac=iLIcYburGGq0F1Anieyhb5Xu4QYLAMDaCLYVTg5WwpY" alt="No Image Found">
+                    <h5 class="card-title mt-1">264 Likes</h5>
+                    <p class="card-text">Came on a camping trip with the in-laws!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="post-prompt">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Create a new post</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h6>Caption:</h6>
+            <div class="form-floating">
+              <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Add the caption of your post here</label>
+            </div>
+            <button type="button" class="btn btn-light mx-1"><i class="bi bi-camera-fill"></i></button>
+            <button type="button" class="btn btn-light mx-1"><i class="bi bi-geo-alt-fill"></i></button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Publish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
